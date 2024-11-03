@@ -154,7 +154,6 @@
   color: var(--accent-color);
   font-family: var(--accent-font);
   font-size: 14px;
-  font-size: 14px;
   text-shadow: 1px 1px 0 var(--stroke-color), -1px 1px 0 var(--stroke-color),
     1px -1px 0 var(--stroke-color), -1px -1px 0 var(--stroke-color);
   mix-blend-mode: hard-light;
