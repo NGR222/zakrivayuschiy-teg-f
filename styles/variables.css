@@ -1,1 +1,34 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter Variable', 'Arial', sans-serif;
+  --accent-font: 'Press Start 2P', 'Courier New', monospace;
+  --card-text-weight: 400;
+  --card-title-weight: 700;
+  --bg-color: #FFFFFF;
+  --accent-color: #000000;
+  --card-bg: #FFFFFF;
+  --stroke-color: #FFFFFF;
+  --mix-blend-mode-color: #FFFFFF;
+  --inline-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
+  --sparks-fill: #FF0000;
+  --bg-gradient: 
+    repeating-linear-gradient(
+      90deg, 
+      #d3d3d3, 
+      #d3d3d3 2px, 
+      transparent 2px, 
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      0deg, 
+      #d3d3d3, 
+      #d3d3d3 2px, 
+      transparent 2px, 
+      transparent 4px
+    ),
+    linear-gradient(
+      180deg, 
+      #e7e7e7, 
+      #1a1a1a
+    );
+}
