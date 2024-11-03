@@ -23,7 +23,7 @@
 }
 
 .heart .contour {
-  transition: fill 0.1s linear; 
+  transition: fill 0.1s linear;
 }
 
 .heart .core {
@@ -46,17 +46,17 @@
 }
 
 .like-icon.is-liked .core {
-  fill: var(--sparks-fill); 
+  fill: var(--sparks-fill);
   transition: fill 0.3s;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--sparks-fill);
-  transition: fill 0.3s linear 0.03s; 
+  transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon.is-liked .contour {
-  transition: fill 0.3s linear 0.06s; 
+  transition: fill 0.3s linear 0.06s;
   fill: var(--sparks-fill);
 }
 
@@ -67,12 +67,12 @@
 
 @keyframes scale {
   from {
-    transform: scale(1)
+    transform: scale(1);
   }
   to {
-    transform: scale(1.5)
+    transform: scale(1.5);
   }
-} 
+}
 
 .sparks {
   opacity: 0;
@@ -90,4 +90,4 @@
   to {
     opacity: 1;
   }
-} 
+}
