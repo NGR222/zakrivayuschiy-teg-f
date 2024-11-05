@@ -284,7 +284,6 @@
   text-transform: uppercase;
   background-color: var(--bg-color);
   inline-size: clamp(21.313rem, 21.048rem + 1.127vw, 22.063rem);
-  block-size: 191px;
   padding: 0;
 }
 
