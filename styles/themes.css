@@ -6,8 +6,6 @@
 */
 
 :root.theme-light {
-  --main-font: 'Inter Variable', 'Arial', sans-serif;
-  --accent-font: 'Press Start 2P', 'Courier New', monospace;
   --card-text-weight: 400;
   --card-title-weight: 700;
   --bg-color: #FFFFFF;
